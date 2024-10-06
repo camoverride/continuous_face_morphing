@@ -1,0 +1,21 @@
+# The fraction of the new image that will enter the collage.
+alpha: 0.2
+
+# These should be roughly square for good behavior.
+display_width: 1024
+display_height: 1280
+
+# How many faces should be "remembered" before a repeat is allowed.
+face_memory: 10
+
+# Larger values mean the algorithm is more likely to say it has seen the face before.
+tolerance: 0.5
+
+# How large the margin around the face should be. 2.5 is usually good.
+margin: 2.5
+
+# Which face's features should be used for morphing
+basis_image: cam.jpg
+
+# Where to save the images
+save_directory: all_faces
