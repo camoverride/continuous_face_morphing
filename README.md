@@ -9,7 +9,11 @@
 
 ## Run
 
-- `python run_face_morphing.py`
+For interactive mode:
+- `python continuous_morph_from_camera.py`
+
+For static mode:
+- `python continuous_morph_from_directory.py`
 
 
 ## To Do's
